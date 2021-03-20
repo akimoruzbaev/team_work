@@ -5,7 +5,7 @@ class Car:
         self.owner = owner
 
     def get_info(self):
-        print(f"Автомобиль {name}")
-        print(f"Год выпуска {year}")
-        print(f"Владелец {owner}")
+        print(f"Автомобиль {self.name}")
+        print(f"Год выпуска {self.year}")
+        print(f"Владелец {self.owner}")
 
